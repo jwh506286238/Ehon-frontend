@@ -1,19 +1,19 @@
-Arguments: 
+Arguments:
   /usr/local/bin/node /usr/local/bin/yarn install
 
-PATH: 
+PATH:
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jiangwenhao/wrok/EhonProject/Ehon-frontend/node_modules/.bin
 
-Yarn version: 
+Yarn version:
   1.22.10
 
-Node version: 
+Node version:
   10.15.1
 
-Platform: 
+Platform:
   darwin x64
 
-Trace: 
+Trace:
   SyntaxError: /Users/jiangwenhao/wrok/EhonProject/Ehon-frontend/package.json: Unexpected token } in JSON at position 593
       at JSON.parse (<anonymous>)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
@@ -21,9 +21,9 @@ Trace:
       at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
 
-npm manifest: 
+npm manifest:
   {
-    "name": "nexus-frontend",
+    "name": "ehon-frontend",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -46,7 +46,7 @@ npm manifest:
       "vue-router": "^3.4.3",
       "vuex": "^3.5.1",
     },
-  
+
     "devDependencies": {
       "@vue/cli-plugin-babel": "~4.5.0",
       "@vue/cli-plugin-eslint": "~4.5.0",
@@ -56,7 +56,7 @@ npm manifest:
       "eslint-plugin-vue": "^6.2.2",
       "vue-template-compiler": "^2.6.11"
     },
-  
+
     "browserslist": [
       "> 1%",
       "last 2 versions",
@@ -64,8 +64,8 @@ npm manifest:
     ]
   }
 
-yarn manifest: 
+yarn manifest:
   No manifest
 
-Lockfile: 
+Lockfile:
   No lockfile
