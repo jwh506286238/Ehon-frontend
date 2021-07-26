@@ -1,0 +1,71 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/jiangwenhao/wrok/EhonProject/Ehon-frontend/node_modules/.bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  10.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jiangwenhao/wrok/EhonProject/Ehon-frontend/package.json: Unexpected token } in JSON at position 593
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "nexus-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve && webpack-dev-server --open",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "axios": "^0.20.0",
+      "core-js": "^3.6.5",
+      "crypto-js": "^4.0.0",
+      "element-ui": "^2.13.2",
+      "js-base64": "^3.6.0",
+      "less": "^3.12.2",
+      "less-loader": "^7.0.1",
+      "qs": "^6.9.4",
+      "screenfull": "^5.1.0",
+      "vue": "^2.6.11",
+      "vue-awesome-swiper": "^4.1.1",
+      "vue-router": "^3.4.3",
+      "vuex": "^3.5.1",
+    },
+  
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~4.5.0",
+      "@vue/cli-plugin-eslint": "~4.5.0",
+      "@vue/cli-service": "~4.5.0",
+      "babel-eslint": "^10.1.0",
+      "eslint": "^6.7.2",
+      "eslint-plugin-vue": "^6.2.2",
+      "vue-template-compiler": "^2.6.11"
+    },
+  
+    "browserslist": [
+      "> 1%",
+      "last 2 versions",
+      "not dead"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
